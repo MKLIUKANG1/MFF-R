@@ -1,0 +1,19 @@
+# Hit flash
+
+name	Apple
+Health	25
+type	item
+
+shadow	0
+
+anim idle
+	loop	0
+	delay	3
+	offset	10 16
+		bbox  4  4  11  14
+	frame	data/chars/misc/apple.gif
+
+
+
+
+

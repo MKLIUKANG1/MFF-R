@@ -1,0 +1,19 @@
+# Hit flash
+
+name	Money
+Score	1000
+type	item
+
+shadow	0
+
+anim idle
+	loop	0
+	delay	3
+	offset	10 17
+		bbox  5  4  12  13
+	frame	data/chars/misc/money.gif
+
+
+
+
+

@@ -1,0 +1,19 @@
+# Hit flash
+
+name	TopT
+health	10
+type	item
+
+shadow	0
+
+anim idle
+	loop	0
+	delay	3
+	offset	11 16
+		bbox  7  7  10  9
+	frame	ddata/chars/misc/cake.gif
+
+
+
+
+

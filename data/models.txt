@@ -1,0 +1,137 @@
+################ GENERIC PLAYER PROPERTIES ################
+autoland             1
+nocost               1
+nolost               0
+noaircancel          1
+
+################ SCREEN PROPERTIES ################
+spdirection          1 1
+
+################ MISCELLANEOUS ################
+nocheats             0
+
+################ ATTACK TYPES/LIMIT ################
+maxattacks           100
+maxattacktypes       20
+maxfollows           100
+maxfreespecials      100
+maxidles             50
+maxwalks             50
+maxbackwalks         50
+maxups               50
+maxdowns             50
+
+################ BONUS ################
+lifescore            100000
+credscore            150000
+
+
+
+###################################################
+#     PLAYERS/FLASHES/WEAPONS SHOULD BE LOADED
+#         EVERYTHING ELSE SHOULD BE "KNOW"
+###################################################
+
+
+
+################ FLASHES ################
+load  Flash          data/chars/misc/flash.txt
+
+################ PLAYERS ################
+load Cody            data/chars/Cody/Cody.txt
+load Cody_           data/chars/Cody/Cody2.txt
+load Cody__          data/chars/Cody/Cody3.txt
+
+load Guy             data/chars/Guy/Guy.txt
+load Guy_            data/chars/Guy/Guy2.txt
+load Guy__           data/chars/Guy/Guy3.txt
+
+load Haggar          data/chars/haggar/Haggar.txt
+load Haggar_         data/chars/haggar/Haggar2.txt
+load Haggar__        data/chars/haggar/Haggar3.txt
+
+################ PLAYER WEAPONS ################
+load Codyknife       data/chars/Cody/Codyknife.txt
+load knife1          data/chars/Cody/knife1.txt
+load knife2          data/chars/Cody/knife2.txt
+
+################ ENEMIES ################
+know Enemy_1         data/chars/Enemy_1/Enemy_1.txt
+know Enemy_2         data/chars/Enemy_2/Enemy_2.txt
+know Enemy_3         data/chars/Enemy_3/Enemy_3.txt
+know Enemy_4         data/chars/Enemy_4/Enemy_4.txt
+know Enemy_5         data/chars/Enemy_5/Enemy_5.txt
+know Enemy_6         data/chars/Enemy_6/Enemy_6.txt
+know boss1           data/chars/boss1/boss1.txt
+know boss2           data/chars/boss2/boss2.txt
+know boss3           data/chars/boss3/boss3.txt
+know Boss2-1         data/chars/boss2/boss2-1.txt
+know Boss___         data/chars/boss2/boss2-2.txt
+know boss4           data/chars/boss4/boss4.txt
+know boss4-1         data/chars/boss4/boss4-1.txt
+
+################ STAGES MISC ################
+know lv1door         data/chars/misc/lv1door.txt
+know park            data/bgs/bg/park.txt
+know shit            data/bgs/bg/shit.txt
+know backlv2b        data/bgs/bg/backlv2b.txt
+know lv3             data/bgs/bg/lv3.txt
+know lv3hole         data/bgs/bg/lv3hole.txt
+know i1              data/bgs/ff/ST4-2/i1.txt
+know st4b            data/bgs/bg/st4b.txt
+know endlv4          data/bgs/bg/Endlv4.txt
+know shit4           data/bgs/bg/shit4.txt
+know light           data/bgs/bg/light.txt
+know light2          data/bgs/bg/light2.txt
+know fontan          data/bgs/bg/fontan.txt
+know hole1           data/bgs/bg/hole1.txt
+know hole1-1         data/bgs/bg/hole1-1.txt
+know elv             data/bgs/bg/elv.txt
+know st1c            data/bgs/bg/st1c.txt
+
+################ MISC ################
+know BH              data/chars/misc/BH/BH.txt
+know BH1             data/chars/misc/BH/BH1.txt
+know delay           data/chars/misc/delay.txt
+know map             data/bgs/bg/map.txt
+know go              data/chars/misc/go.txt
+know Clear           data/chars/misc/clear.txt
+know Clear2          data/chars/misc/clear2.txt
+know PlayerSpawn     data/chars/misc/PlayerSpawn.txt
+know endlv           data/chars/misc/endlv.txt
+
+################ ITEMS ################
+know Money          data/chars/misc/Money.txt
+know TopT           data/chars/misc/Cake.txt
+know Apple          data/chars/misc/Apple.txt
+know Meat           data/chars/misc/Chicken.txt
+know Energy         data/chars/misc/Energy.txt
+know 1UP            data/chars/misc/Heart.txt
+know Knife          data/chars/Cody/knife.txt
+know wave           data/chars/Cody/wave.txt
+know punch          data/chars/boss4/punch.txt
+
+################ NPC ################
+know Cody_end1      data/chars/Cody/Cody_end1.txt
+know Cody_end2      data/chars/Cody/Cody_end2.txt
+know Guy_end1       data/chars/Guy/Guy_end1.txt
+know Guy_end2       data/chars/Guy/Guy_end2.txt
+know Haggar_end1    data/chars/Haggar/Haggar_end1.txt
+know Haggar_end2    data/chars/Haggar/Haggar_end2.txt
+know Boss_i         data/chars/boss1/Bossi.txt
+
+################ TEXT ################
+know Boss1-1        data/chars/misc/text/Boss1-1.txt
+know Boss2-t        data/chars/misc/text/Boss2-1.txt
+know Boss3-1        data/chars/misc/text/Boss3-1.txt
+know Boss4-t        data/chars/misc/text/Boss4-1.txt
+know Boss5-1        data/chars/misc/text/Boss5-1.txt
+know Boss5-2        data/chars/misc/text/Boss5-2.txt
+know Boss7-1        data/chars/misc/text/Boss7-1.txt
+know Boss7-1        data/chars/misc/text/Boss8-1.txt
+
+know R1C            data/chars/misc/text/R1C.txt
+know R2C            data/chars/misc/text/R2C.txt
+know R3C            data/chars/misc/text/R3C.txt
+know R4C            data/chars/misc/text/R4C.txt
+know BR             data/chars/misc/text/BR.txt

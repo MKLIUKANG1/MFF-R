@@ -1,0 +1,19 @@
+# Hit flash
+
+name	Meat
+health	100
+type	item
+
+shadow	0
+
+anim idle
+	loop	0
+	delay	3
+	offset	11 17
+		bbox  4  5  13  12
+	frame	data/chars/misc/chicken.gif
+
+
+
+
+

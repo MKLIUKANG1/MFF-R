@@ -1,0 +1,23 @@
+name    	lv1door
+type    	none
+shadow  	0
+nomove  	1
+
+
+
+
+
+anim idle
+	delay	10
+	offset	1 90
+		bbox  -28  -1  30  92
+		drawmethod  256  256  1
+	frame	data/bgs/bg/door1.GIF
+
+anim death
+	delay	10
+	offset	1 90
+		drawmethod  256  256  1
+	frame	data/bgs/bg/door2.GIF
+
+

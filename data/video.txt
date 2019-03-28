@@ -1,0 +1,72 @@
+######################### VIDEO MODES #############################
+#
+# Syntax: video [value]
+#
+#[value]:  0 = 480x240 Gameplay Mode Only
+#               320x240 Scenes, Titles, Select Screens, etc...
+#
+#         1 = 480x240 All Modes with Black Bars
+#
+#           2 = 480x240 Gameplay Mode Only
+#               480x272 Scenes, Titles, Select Screens, etc...
+#
+#         3 = 480x272 All Modes Full Screen
+#
+###################################################################
+
+video 0
+
+############################ SCENES ###############################
+#
+# Syntax: scenes [path]
+#
+# [path]:   data/8_char_limit_and_must_end_with_Slash/
+#
+# Supported Scenes: gameover.txt, logo.txt, intro.txt, howto.txt
+#
+###################################################################
+
+########################## BACKGROUNDS ############################
+#
+# Syntax: backgrounds [path]
+#
+# [path]:   data/8_char_limit_and_must_end_with_Slash/ 
+#
+# Supported Backgrounds: title, titleb, logo, select, unlockbg, hiscore
+#
+###################################################################
+
+########################## LEVEL ORDER ############################
+#
+# Syntax: levels [filename]
+#
+# [filename]:   levels2.txt 
+#
+# Usage: File to load up levelorder instead of default levels.txt
+#
+###################################################################
+
+########################## COLOUR DEPTH ########################
+# 8bit = BoR Standard
+#16Bit = Colour depth screen view only (gifs are still 8bit)
+#32Bit = Colour depth screen view only (gifs are still 8bit)
+#
+#8bit (default): There is one, and only one 256 color universal palette that everything in the module draws its colors from. 
+#While you can switch this palette live, you can never have more then one at a time.
+#
+#16bit: Each entity and the backgrounds have their own 256 color palette, and the screen can display 65,536 possible colors 
+#at once. A little slower then 8bit.
+#
+#32bit: Each entity and the backgrounds have their own 256 color palette, and the screen can display 4,294,967,296 possible 
+#colors at once. Obviously this is maximum quality, but it's the slowest. Only PCs can run this at full speed; 
+#the PSP can run at reasonable speed but any other console is out.
+#
+#-= Usage =-
+#
+#ColourDepth 8bit
+#ColourDepth 16bit
+#ColourDepth 32bit
+#
+###################################################################
+
+ColourDepth 16bit

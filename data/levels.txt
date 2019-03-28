@@ -1,0 +1,61 @@
+################ PLAYERS HUD ################
+
+lbarsize         100 5 0 0 0 0 1 0 0
+
+################ PLAYER1 HUD ################
+p1rush          -1000 0 -1000 0 -1000 0 -1000 0
+p1score         -100 0 -100 0 75 176 0 2
+p1namej         -1000 -10 33 210 35 190
+p1lifen          55 176 0
+p1lifex         -10000 0
+p1life           54 165
+p1mp            -1000 0
+p1iconw         -1000 0
+p1shoot         -1000 0
+p1icon           0 155
+
+################ PLAYER2 HUD ################
+p2rush          -100 0 -100 0 -100 0 -100 0
+p2score         -100 0 -100 0 235 176 0 2
+p2namej         -1000 -10 171 210 190 190
+p2lifen          216 176 0
+p2lifex         -100 0
+p2life           215 165
+p2mp            -100 0
+p2iconw         -100 0
+p2shoot         -100 0
+p2icon           161 155
+
+################ ENEMIES HUD ################
+e1icon          -1000 -300
+e1name           5 210
+e1life           5 220
+e2icon          -1000 -300
+e2name           171 210
+e2life           171 220
+
+################ MISCELLANEOUS ################
+equalairpause    0
+skiptoset        0
+
+################ HEADERS ################
+set              Normal
+credits          6
+lives            3
+cansave          2
+maxplayers       2
+nosame           1
+noshare          1
+skipselect       1
+
+################ BODY ################
+select           data/bgs/bg/select.txt
+scene            data/anim/map/round1.txt
+z                113 156
+file             data/levels/st1.txt
+file             data/levels/st1b.txt
+file             data/levels/st1c.txt
+scene            data/anim/map/round2.txt
+
+end
+################ END ################

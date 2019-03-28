@@ -1,0 +1,19 @@
+name    Boss3-1
+health  1
+type	text
+subtype noskip
+setlayer 400
+
+anim idle
+	 loop    0
+	 offset  0 -50
+	 bbox    0 0 0 0
+	 delay   200
+	 frame   data/chars/misc/TEXT/Boss3-1.GIF
+                   frame   data/chars/misc/TEXT/Boss3-2.GIF
+                   frame   data/chars/misc/TEXT/Boss3-3.GIF
+                   frame   data/chars/misc/TEXT/Boss3-4.GIF
+                   frame   data/chars/misc/TEXT/Boss3-5.GIF
+                   frame   data/chars/misc/TEXT/Boss3-6.GIF
+                   frame   data/chars/misc/TEXT/Boss3-7.GIF
+                   frame   data/chars/misc/TEXT/Boss3-8.GIF

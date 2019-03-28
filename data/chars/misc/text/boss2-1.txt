@@ -1,0 +1,17 @@
+name    Boss2-t
+health  1
+type	text
+subtype noskip
+setlayer 400
+
+anim idle
+	 loop    0
+	 offset  0 -50
+	 bbox    0 0 0 0
+	 delay   200
+	 frame   data/chars/misc/TEXT/Boss2-1.GIF
+                   frame   data/chars/misc/TEXT/Boss2-2.GIF
+                   frame   data/chars/misc/TEXT/Boss2-3.GIF
+                   frame   data/chars/misc/TEXT/Boss2-4.GIF
+                   frame   data/chars/misc/TEXT/Boss2-5.GIF
+                   frame   data/chars/misc/TEXT/Boss2-6.GIF
