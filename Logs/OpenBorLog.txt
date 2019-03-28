@@ -1,0 +1,136 @@
+Total Ram: 8028278784 Bytes
+ Free Ram: 4206415872 Bytes
+ Used Ram: 3215360 Bytes
+
+debug:nativeWidth, nativeHeight, bpp, Hz  1366, 768, 24, 60
+OpenBoR v3.0 Build , Compile Date: Aug 29 2018
+
+Game Selected: ./Paks/empty.pak
+
+FileCaching System Init......	Disabled
+Initializing video............
+Reading video settings from 'data/video.txt'.
+
+Colordepth is depreciated. All modules are displayed with a 32bit color screen.
+
+Initialized video.............	320x240 (Mode: 0)
+
+Loading menu.txt.............	Done!
+Loading fonts................	Done!
+Timer init...................	Done!
+Initialize Sound..............	
+Loading sprites..............	Done!
+Loading level order..........	Done!
+Loading model constants......	Done!
+Loading script settings......	Done!
+Loading scripts..............	Done!
+Loading models...............
+
+Cacheing 'Flash' from data/chars/misc/flash.txt
+Cacheing 'Cody' from data/chars/Cody/Cody.txt
+Cacheing 'Cody_' from data/chars/Cody/Cody2.txt
+Cacheing 'Cody__' from data/chars/Cody/Cody3.txt
+Cacheing 'Guy' from data/chars/Guy/Guy.txt
+Cacheing 'Guy_' from data/chars/Guy/Guy2.txt
+Cacheing 'Guy__' from data/chars/Guy/Guy3.txt
+Cacheing 'Haggar' from data/chars/haggar/Haggar.txt
+Cacheing 'Haggar_' from data/chars/haggar/Haggar2.txt
+Cacheing 'Haggar__' from data/chars/haggar/Haggar3.txt
+Cacheing 'Codyknife' from data/chars/Cody/Codyknife.txt
+Cacheing 'knife1' from data/chars/Cody/knife1.txt
+Cacheing 'knife2' from data/chars/Cody/knife2.txt
+Cacheing 'Enemy_1' from data/chars/Enemy_1/Enemy_1.txt
+Cacheing 'Enemy_2' from data/chars/Enemy_2/Enemy_2.txt
+Cacheing 'Enemy_3' from data/chars/Enemy_3/Enemy_3.txt
+Cacheing 'Enemy_4' from data/chars/Enemy_4/Enemy_4.txt
+Cacheing 'Enemy_5' from data/chars/Enemy_5/Enemy_5.txt
+Cacheing 'Enemy_6' from data/chars/Enemy_6/Enemy_6.txt
+Cacheing 'boss1' from data/chars/boss1/boss1.txt
+Cacheing 'boss2' from data/chars/boss2/boss2.txt
+Cacheing 'boss3' from data/chars/boss3/boss3.txt
+Cacheing 'Boss2-1' from data/chars/boss2/boss2-1.txt
+Cacheing 'Boss___' from data/chars/boss2/boss2-2.txt
+Cacheing 'boss4' from data/chars/boss4/boss4.txt
+Cacheing 'boss4-1' from data/chars/boss4/boss4-1.txt
+Cacheing 'lv1door' from data/chars/misc/lv1door.txt
+Cacheing 'park' from data/bgs/bg/park.txt
+Cacheing 'shit' from data/bgs/bg/shit.txt
+Cacheing 'backlv2b' from data/bgs/bg/backlv2b.txt
+Cacheing 'lv3' from data/bgs/bg/lv3.txt
+Cacheing 'lv3hole' from data/bgs/bg/lv3hole.txt
+Cacheing 'i1' from data/bgs/ff/ST4-2/i1.txt
+Cacheing 'st4b' from data/bgs/bg/st4b.txt
+Cacheing 'endlv4' from data/bgs/bg/Endlv4.txt
+Cacheing 'shit4' from data/bgs/bg/shit4.txt
+Cacheing 'light' from data/bgs/bg/light.txt
+Cacheing 'light2' from data/bgs/bg/light2.txt
+Cacheing 'fontan' from data/bgs/bg/fontan.txt
+Cacheing 'hole1' from data/bgs/bg/hole1.txt
+Cacheing 'hole1-1' from data/bgs/bg/hole1-1.txt
+Cacheing 'elv' from data/bgs/bg/elv.txt
+Cacheing 'st1c' from data/bgs/bg/st1c.txt
+Cacheing 'BH' from data/chars/misc/BH/BH.txt
+Cacheing 'BH1' from data/chars/misc/BH/BH1.txt
+Cacheing 'delay' from data/chars/misc/delay.txt
+Cacheing 'map' from data/bgs/bg/map.txt
+Cacheing 'go' from data/chars/misc/go.txt
+Cacheing 'Clear' from data/chars/misc/clear.txt
+Cacheing 'Clear2' from data/chars/misc/clear2.txt
+Cacheing 'PlayerSpawn' from data/chars/misc/PlayerSpawn.txt
+Cacheing 'endlv' from data/chars/misc/endlv.txt
+Cacheing 'Money' from data/chars/misc/Money.txt
+Cacheing 'TopT' from data/chars/misc/Cake.txt
+Cacheing 'Apple' from data/chars/misc/Apple.txt
+Cacheing 'Meat' from data/chars/misc/Chicken.txt
+Cacheing 'Energy' from data/chars/misc/Energy.txt
+Cacheing '1UP' from data/chars/misc/Heart.txt
+Cacheing 'Knife' from data/chars/Cody/knife.txt
+Cacheing 'wave' from data/chars/Cody/wave.txt
+Cacheing 'punch' from data/chars/boss4/punch.txt
+Cacheing 'Cody_end1' from data/chars/Cody/Cody_end1.txt
+Cacheing 'Cody_end2' from data/chars/Cody/Cody_end2.txt
+Cacheing 'Guy_end1' from data/chars/Guy/Guy_end1.txt
+Cacheing 'Guy_end2' from data/chars/Guy/Guy_end2.txt
+Cacheing 'Haggar_end1' from data/chars/Haggar/Haggar_end1.txt
+Cacheing 'Haggar_end2' from data/chars/Haggar/Haggar_end2.txt
+Cacheing 'Boss_i' from data/chars/boss1/Bossi.txt
+Cacheing 'Boss1-1' from data/chars/misc/text/Boss1-1.txt
+Cacheing 'Boss2-t' from data/chars/misc/text/Boss2-1.txt
+Cacheing 'Boss3-1' from data/chars/misc/text/Boss3-1.txt
+Cacheing 'Boss4-t' from data/chars/misc/text/Boss4-1.txt
+Cacheing 'Boss5-1' from data/chars/misc/text/Boss5-1.txt
+Cacheing 'Boss5-2' from data/chars/misc/text/Boss5-2.txt
+Cacheing 'Boss7-1' from data/chars/misc/text/Boss7-1.txt
+Cacheing 'Boss7-1' from data/chars/misc/text/Boss8-1.txt
+Cacheing 'R1C' from data/chars/misc/text/R1C.txt
+Cacheing 'R2C' from data/chars/misc/text/R2C.txt
+Cacheing 'R3C' from data/chars/misc/text/R3C.txt
+Cacheing 'R4C' from data/chars/misc/text/R4C.txt
+Cacheing 'BR' from data/chars/misc/text/BR.txt
+
+Loaded 'Flash' from data/chars/misc/flash.txt 
+
+********** An Error Occurred **********
+*            Shutting Down            *
+
+Unable to load file 'data/chars/Cody/flash.GIF'
+Total Ram: 8028278784 Bytes
+ Free Ram: 4168470528 Bytes
+ Used Ram: 43986944 Bytes
+
+Release level data...........
+Done!
+
+Release graphics data........	Done!
+Release game data............
+
+
+Release game data............	Done!
+Release timer................	Done!
+Release input hardware.......	Done!
+Release sound system.........	Done!
+Release FileCaching System...	Done!
+
+**************** Done *****************
+
+Unable to load file 'data/chars/Cody/flash.GIF'
