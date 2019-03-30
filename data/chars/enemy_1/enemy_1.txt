@@ -31,10 +31,10 @@ anim spawn
 
 anim idle
 @script
-	if(frame==0){
+  if(frame==0){
     void self = getlocalvar("self");
-	changeentityproperty(self, "Health", 100);        // Установить "Жизни", кол-во ХП
-		}
+  changeentityproperty(self, "Health", 100);        // Установить "Жизни", кол-во ХП
+  }
 @end_script
           loop       1
           delay      30
@@ -88,8 +88,8 @@ anim fall
           loop       0
           delay      100
           offset     42 78
-	      quakeframe 0
-	      landframe  1
+          quakeframe 0
+          landframe  1
           bbox       36 51 17 27
           frame      data/chars/enemy_1/fall1.gif
           frame      data/chars/enemy_1/fall2.gif

@@ -3,7 +3,7 @@ nocost               1
 autoland             1
 
 # Required objects. These must always be loaded.
-load Cody           data/chars/cody/cody.txt
+
+load Cody            data/chars/cody/cody.txt
 
 know enemy_1         data/chars/enemy_1/enemy_1.txt
-know enemy_2         data/chars/enemy_2/enemy_2.txt

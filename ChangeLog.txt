@@ -1,0 +1,13 @@
+2019-03-31 - v0.1.0
+
+2019-03-31 ziths
+ADDED
+* добавил title.gif
+* добавил titleb.gif
+CHANGED
+* scripts.h: Изменил форматирование текста
+FIXED
+* * cody.txt: Изменил jumpframe (0 3 0 0 -> 0 2.3 0 0)
+REMOVED
+* удалил старый title.gif
+* удалил старый titleb.gif

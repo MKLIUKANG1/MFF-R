@@ -43,10 +43,10 @@ void main()
     if(animhandle==19)
     {
 
-	if(frame==0){
+  if(frame==0){
     void self = getlocalvar("self");
-	changeentityproperty(self, "Health", 100);        // Установить "Жизни", кол-во ХП
-		}
+  changeentityproperty(self, "Health", 100);        // Установить "Жизни", кол-во ХП
+  }
         if(frame==0)
         {
             degravity(0.3);
