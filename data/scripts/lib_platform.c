@@ -532,7 +532,7 @@ float check_platform_alt(float distx, float distz, int threshold) {
     return altitude;
 }
 
-// Safe check on multiple platforms (tutte, non solo la più bassa a partire da quell'altezza) - WARNING costo computazionale alto
+// Safe check on multiple platforms (tutte, non solo la piï¿½ bassa a partire da quell'altezza) - WARNING costo computazionale alto
 float check_multi_platform_alt(float distx, float distz, int threshold) {
     float altitude = 0;
     int min = 0, max = threshold, mid = max;

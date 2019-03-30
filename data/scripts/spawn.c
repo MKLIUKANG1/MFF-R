@@ -12,7 +12,7 @@ void main() {
 int set_coords(void player, float max_alt) {
     if ( getentityproperty(player, "animationid") == openborconstant("ANI_RESPAWN") ) {
         float x,z,a,base;
-        int p = getentityproperty(player, "playerindex"); // non puoi ricavarti il player con getentityproperty(getplayerproperty(p, "entity")) poichè non esiste ancora
+        int p = getentityproperty(player, "playerindex"); // non puoi ricavarti il player con getentityproperty(getplayerproperty(p, "entity")) poichï¿½ non esiste ancora
         int t;
 
         x = getglobalvar("p"+(p+1)+"respawn_x");
@@ -22,7 +22,7 @@ int set_coords(void player, float max_alt) {
 
         if ( get_ready_players_count() > 1 ) {
             if ( check_incam_pos(x,z) == 1 ) { // siamo nel riquadro giusto?
-                // se sono nulle allora non è mai stato nel livello il personaggio. Verrà eseguita l'animazione RESPAWN
+                // se sono nulle allora non ï¿½ mai stato nel livello il personaggio. Verrï¿½ eseguita l'animazione RESPAWN
                 if ( x != NULL() && z != NULL() && a != NULL() && a < max_alt ) {
                     //changeentityproperty(player, "subject_to_wall", 0);
                     //changeentityproperty(player, "subject_to_platform", 0);
@@ -57,7 +57,7 @@ int set_coords(void player, float max_alt) {
                 if ( result < 1 ) set_latest_safe_coords(player);
                 setlocalvar("respawn", 1);
             } // fine if incam
-        } else { // la funzione incam() ha senso con più di un giocatore in gara
+        } else { // la funzione incam() ha senso con piï¿½ di un giocatore in gara
                 if ( x != NULL() && z != NULL() && a != NULL() && a < max_alt ) {
                     changeentityproperty(player, "position", x, z, a);
                 } else {
@@ -77,7 +77,7 @@ int set_coords(void player, float max_alt) {
                 }
         } // fine if ready_players_count()
 
-        // ##### IMPORTANTE: Facciamo eseguire questo script per tutta la durata del respawn!! Perchè al primo frame potrebbero accadere errori!!
+        // ##### IMPORTANTE: Facciamo eseguire questo script per tutta la durata del respawn!! Perchï¿½ al primo frame potrebbero accadere errori!!
     }
 }
 
@@ -216,15 +216,15 @@ int set_coords_predeath(void player, float max_alt) {
             setglobalvar("p"+(p+1)+"respawn_a", a);
             setglobalvar("p"+(p+1)+"respawn_base", base);
 
-            // Memorizziamo l'altitudine così da confrontarla con la prossima al prossimo frame. In caso si deve memorizzare la posizione sopra una piattaforma.
+            // Memorizziamo l'altitudine cosï¿½ da confrontarla con la prossima al prossimo frame. In caso si deve memorizzare la posizione sopra una piattaforma.
             // Infatti se stesse saltando o cadendo l'altitudine non sarebbe mai uguale da un frame all'altro...
             //setlocalvar("a_coord", a);
         }
     }
 }
 
-// Sistemiamo il personaggio dopo il respawn ne caso è dentro una platform (lo script può essere eseguito solo ora e non onspawn event)
-// 1 ha esito positivo, 0 non esiste l'ultimo player spawned o non è nel quadro, -1 ultimo giocatore spawnato è se stesso, 2 non viene eseguito
+// Sistemiamo il personaggio dopo il respawn ne caso ï¿½ dentro una platform (lo script puï¿½ essere eseguito solo ora e non onspawn event)
+// 1 ha esito positivo, 0 non esiste l'ultimo player spawned o non ï¿½ nel quadro, -1 ultimo giocatore spawnato ï¿½ se stesso, 2 non viene eseguito
 int check_respawn(void player, float threshold) {
     if ( getentityproperty(player, "animationid") == openborconstant("ANI_RESPAWN") && getlocalvar("respawn") == NULL() ) { // && getentityproperty(player, "animpos") > 0
         void last_player = getglobalvar("last_player_spawned");
@@ -252,8 +252,8 @@ int check_respawn(void player, float threshold) {
                         return 0;
                     }
 
-                    // Respawniamo un valore threshold di px in avanti/dietro/giù/su rispetto al giocatore già in gara
-                    for ( i = 0; i <= threshold; ++i ) { // <= così può assumere valore 0!
+                    // Respawniamo un valore threshold di px in avanti/dietro/giï¿½/su rispetto al giocatore giï¿½ in gara
+                    for ( i = 0; i <= threshold; ++i ) { // <= cosï¿½ puï¿½ assumere valore 0!
                             x2 = x-(threshold-i); z2 = z+(threshold-i);
                             wall = checkwall(x2,z2); platform = checkplatform(x2,z2,t_alt);
                             if ( platform != NULL() ) platform_a = getentityproperty(platform, "a");

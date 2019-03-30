@@ -1,6 +1,6 @@
 Total Ram: 8028278784 Bytes
- Free Ram: 4878872576 Bytes
- Used Ram: 3235840 Bytes
+ Free Ram: 5861507072 Bytes
+ Used Ram: 3211264 Bytes
 
 debug:nativeWidth, nativeHeight, bpp, Hz  1366, 768, 24, 60
 OpenBoR v3.0 Build , Compile Date: Aug 29 2018
@@ -39,50 +39,50 @@ Save settings so far........	Done!
 
 Level Loading:   'data/levels/01.txt'
 Total Ram: 8028278784 Bytes
- Free Ram: 4829421568 Bytes
- Used Ram: 46157824 Bytes
+ Free Ram: 5805547520 Bytes
+ Used Ram: 45805568 Bytes
 
 Loaded 'enemy_1' from data/chars/enemy_1/enemy_1.txt 
 
 Level Loaded:    'data/levels/01.txt'
 Total Ram: 8028278784 Bytes
- Free Ram: 4828942336 Bytes
- Used Ram: 46620672 Bytes
+ Free Ram: 5804822528 Bytes
+ Used Ram: 46284800 Bytes
 Total sprites mapped: 47
 
 Level Unloading: 'data/levels/01.txt'
 Total Ram: 8028278784 Bytes
- Free Ram: 4827537408 Bytes
- Used Ram: 46764032 Bytes
+ Free Ram: 5813719040 Bytes
+ Used Ram: 46403584 Bytes
 
 RAM Status:
 Total Ram: 8028278784 Bytes
- Free Ram: 4827537408 Bytes
- Used Ram: 46764032 Bytes
+ Free Ram: 5814222848 Bytes
+ Used Ram: 45834240 Bytes
 
 Level Loading:   'data/levels/02.txt'
 Total Ram: 8028278784 Bytes
- Free Ram: 4827537408 Bytes
- Used Ram: 46764032 Bytes
+ Free Ram: 5814280192 Bytes
+ Used Ram: 45834240 Bytes
 
 
 ********** An Error Occurred **********
 *            Shutting Down            *
 
 ERROR: load_level, file data/levels/02.txt, line 0, message: Unable to load level file!Total Ram: 8028278784 Bytes
- Free Ram: 4827537408 Bytes
- Used Ram: 46764032 Bytes
+ Free Ram: 5814288384 Bytes
+ Used Ram: 45834240 Bytes
 
 Release level data...........
 Level Unloading: 'data/levels/02.txt'
 Total Ram: 8028278784 Bytes
- Free Ram: 4827537408 Bytes
- Used Ram: 46764032 Bytes
+ Free Ram: 5814288384 Bytes
+ Used Ram: 45834240 Bytes
 
 RAM Status:
 Total Ram: 8028278784 Bytes
- Free Ram: 4827537408 Bytes
- Used Ram: 46764032 Bytes
+ Free Ram: 5814288384 Bytes
+ Used Ram: 45834240 Bytes
 
 Done!
 
