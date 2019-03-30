@@ -1,0 +1,8 @@
+music                data/music/original/slums.ogg
+panel                data/bgs/ff/st1.gif
+settime              0
+notime               1
+order                a
+direction            right
+spawn1               71 10 300
+spawn2               53 30 300

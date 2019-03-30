@@ -1,7 +1,0 @@
-################ SCRIPTS VARIABLES################
-maxentityvars     100
-maxindexedvars    100
-maxscriptvars     100
-maxglobalvars     0
-alwaysupdate      1
-nocmdcompatible   0

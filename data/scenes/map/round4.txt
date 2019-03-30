@@ -1,0 +1,9 @@
+animation     data/scenes/map/map4.gif 50 0 0 1
+animation     data/scenes/map/map4.gif 50 0 0 1
+animation     data/scenes/map/map4.gif 50 0 0 1
+animation     data/scenes/map/map4.gif 50 0 0 1
+animation     data/scenes/map/map4.gif 50 0 0 1
+animation     data/scenes/map/map4.gif 50 0 0 1
+animation     data/scenes/map/map4.gif 50 0 0 1
+animation     data/scenes/map/map4.gif 50 0 0 1
+animation     data/scenes/map/map4.gif 50 0 0 1
