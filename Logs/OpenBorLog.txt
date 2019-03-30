@@ -1,6 +1,6 @@
 Total Ram: 8028278784 Bytes
- Free Ram: 5509922816 Bytes
- Used Ram: 3334144 Bytes
+ Free Ram: 5000749056 Bytes
+ Used Ram: 3325952 Bytes
 
 debug:nativeWidth, nativeHeight, bpp, Hz  1366, 768, 24, 60
 OpenBoR v3.0 Build , Compile Date: Aug 29 2018
@@ -39,16 +39,16 @@ Save settings so far........	Done!
 
 Level Loading:   'data/levels/01.txt'
 Total Ram: 8028278784 Bytes
- Free Ram: 5460840448 Bytes
- Used Ram: 46059520 Bytes
+ Free Ram: 4952494080 Bytes
+ Used Ram: 46161920 Bytes
 
 Loaded 'enemy_1' from data/chars/enemy_1/enemy_1.txt 
 
 Level Loaded:    'data/levels/01.txt'
 Total Ram: 8028278784 Bytes
- Free Ram: 5457469440 Bytes
- Used Ram: 48607232 Bytes
-Total sprites mapped: 55
+ Free Ram: 4949848064 Bytes
+ Used Ram: 48717824 Bytes
+Total sprites mapped: 53
 
 
 ************ Shutting Down ************
@@ -61,19 +61,19 @@ OpenBOR is the open source continuation of Beats of Rage by Senile Team.
 Special thanks to SEGA and SNK.
 
 Total Ram: 8028278784 Bytes
- Free Ram: 5458288640 Bytes
- Used Ram: 48750592 Bytes
+ Free Ram: 4949745664 Bytes
+ Used Ram: 48857088 Bytes
 
 Release level data...........
 Level Unloading: 'data/levels/01.txt'
 Total Ram: 8028278784 Bytes
- Free Ram: 5458284544 Bytes
- Used Ram: 48750592 Bytes
+ Free Ram: 4949745664 Bytes
+ Used Ram: 48857088 Bytes
 
 RAM Status:
 Total Ram: 8028278784 Bytes
- Free Ram: 5458284544 Bytes
- Used Ram: 48750592 Bytes
+ Free Ram: 4949745664 Bytes
+ Used Ram: 48857088 Bytes
 
 Done!
 
