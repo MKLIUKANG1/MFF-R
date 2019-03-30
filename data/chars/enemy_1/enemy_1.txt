@@ -2,7 +2,7 @@ name                 enemy_1
 type                 enemy
 health               80
 speed                15
-jumpheight           3
+jumpheight           2.5
 grabdistance         10
 noquake              1
 nodieblink           3
@@ -16,6 +16,12 @@ alternatepal         data/chars/enemy_1/alt3.gif
 alternatepal         data/chars/enemy_1/alt4.gif
 palette              data/chars/enemy_1/alt1.gif
 
+#Скрипты-------------------------------------#
+
+animationscript      data/scripts/scripts.h
+
+#Скрипты-------------------------------------#
+
 anim spawn
           loop       0
           delay      3
@@ -24,10 +30,19 @@ anim spawn
           frame      data/chars/enemy_1/idle.gif
 
 anim idle
+@script
+	if(frame==0){
+    void self = getlocalvar("self");
+	changeentityproperty(self, "Health", 100);        // Установить "Жизни", кол-во ХП
+		}
+@end_script
           loop       1
           delay      30
           offset     42 79
           bbox       38 47 12 31
+          @cmd       degravity	0.3
+          frame      data/chars/enemy_1/idle.gif
+          @cmd       degravity	0.3
           frame      data/chars/enemy_1/idle.gif
 
 anim walk
@@ -61,11 +76,20 @@ anim pain
           frame      data/chars/enemy_1/pain.gif
 
 anim fall
+@script
+	void self = getlocalvar("self");
+    changeentityproperty(self, "antigravity", 0);
+    changeentityproperty(self, "Subject_to_Gravity", 1);
+	
+    if(frame==0){
+      setentityvar(self, 0, openborvariant("elapsed_time"));
+    }
+@end_script
           loop       0
           delay      100
           offset     42 78
-          quakeframe 1
-          attack     0 0 0 0 0 0 0 0 0
+	      quakeframe 0
+	      landframe  1
           bbox       36 51 17 27
           frame      data/chars/enemy_1/fall1.gif
           frame      data/chars/enemy_1/fall2.gif

@@ -1,21 +1,72 @@
 
 #### animationscript function main #####
+# data/chars/cody/cody.txt
+########################################
+void main()
+{
+    int frame = getlocalvar("frame");
+    int animhandle = getlocalvar("animhandle");
+    if(animhandle==1)
+    {
+        if(frame==0)
+        {
+            degravity(0.3);
+        }
+        if(frame==1)
+        {
+            degravity(0.3);
+        }
+        return;
+    }
+    if(animhandle==16)
+    {
+
+  void self = getlocalvar("self");
+    changeentityproperty(self, "antigravity", 0);
+    changeentityproperty(self, "Subject_to_Gravity", 1);
+  
+    if(frame==0){
+      setentityvar(self, 0, openborvariant("elapsed_time"));
+    }
+        return;
+    }
+
+}
+
+#### animationscript function main #####
 # data/chars/enemy_1/enemy_1.txt
 ########################################
 void main()
 {
     int frame = getlocalvar("frame");
     int animhandle = getlocalvar("animhandle");
-    if(animhandle==30)
+    if(animhandle==19)
     {
+
+	if(frame==0){
+    void self = getlocalvar("self");
+	changeentityproperty(self, "Health", 100);        // Установить "Жизни", кол-во ХП
+		}
         if(frame==0)
         {
-            attack1(-30, 50, 50, "ANI_FOLLOW3");
+            degravity(0.3);
         }
         if(frame==1)
         {
-            attack1(-30, 50, 50, "ANI_FOLLOW3");
+            degravity(0.3);
         }
+        return;
+    }
+    if(animhandle==24)
+    {
+
+	void self = getlocalvar("self");
+    changeentityproperty(self, "antigravity", 0);
+    changeentityproperty(self, "Subject_to_Gravity", 1);
+	
+    if(frame==0){
+      setentityvar(self, 0, openborvariant("elapsed_time"));
+    }
         return;
     }
 
