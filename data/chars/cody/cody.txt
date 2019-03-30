@@ -143,7 +143,6 @@ anim jump
           offset     55 89
           bbox       50 56 12 31
           attack     0
-          data/sounds/jump.wav
           frame      data/chars/cody/jump1.gif
           delay      10
           bbox       48 55 11 33
