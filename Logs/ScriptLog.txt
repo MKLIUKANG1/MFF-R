@@ -6,7 +6,7 @@ void main()
 {
     int frame = getlocalvar("frame");
     int animhandle = getlocalvar("animhandle");
-    if(animhandle==24)
+    if(animhandle==26)
     {
 
     void self = getlocalvar("self");
@@ -21,7 +21,7 @@ void main()
     }
         return;
     }
-    if(animhandle==25)
+    if(animhandle==27)
     {
         if(frame==0)
         {
@@ -33,7 +33,7 @@ void main()
         }
         return;
     }
-    if(animhandle==26)
+    if(animhandle==28)
     {
         if(frame==0)
         {
@@ -45,7 +45,7 @@ void main()
         }
         return;
     }
-    if(animhandle==30)
+    if(animhandle==32)
     {
         if(frame==0)
         {
@@ -53,7 +53,7 @@ void main()
         }
         return;
     }
-    if(animhandle==31)
+    if(animhandle==33)
     {
         if(frame==0)
         {

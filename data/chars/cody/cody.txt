@@ -7,6 +7,7 @@ throw                1 2.5
 jumpheight           3
 jumpspeed            6
 grabdistance         16
+running              15 3 3.5 0 0
 makeinv              2 0
 nodieblink           2
 falldie              2
@@ -58,6 +59,28 @@ anim walk
           frame      data/chars/cody/wk1.gif
           offset     55 89
           frame      data/chars/cody/wk3.gif
+
+anim run
+          loop       1
+          delay      20
+          offset     55 90
+          bbox       49 60 12 29
+          frame      data/chars/cody/wk1.gif
+          offset     55 89
+          frame      data/chars/cody/wk2.gif
+          offset     55 90
+          frame      data/chars/cody/wk1.gif
+          offset     55 89
+          frame      data/chars/cody/wk3.gif
+
+anim runjumpattack
+          loop       0
+          delay      15
+          offset     55 89
+          bbox       49 60 14 18
+          score      1
+          attack     62 73 15 14 2 1 0 0 0 3
+          frame      data/chars/cody/jumpattack1.gif
 
 anim get
           loop       0
