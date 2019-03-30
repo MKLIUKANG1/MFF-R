@@ -7,7 +7,7 @@ ADDED
 CHANGED
 * scripts.h: Изменил форматирование текста
 FIXED
-* * cody.txt: Изменил jumpframe (0 3 0 0 -> 0 2.3 0 0)
+* cody.txt: Изменил jumpframe (0 3 0 0 -> 0 2.3 0 0)
 REMOVED
 * удалил старый title.gif
 * удалил старый titleb.gif
