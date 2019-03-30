@@ -225,6 +225,18 @@ anim special
 
 anim jump
           loop       0
+          delay      30
+          offset     55 89
+          bbox       50 56 12 31
+          attack     0
+          landframe  1
+          frame      data/chars/cody/jump1.gif
+          delay      10
+          bbox       48 55 11 33
+          frame      data/chars/cody/jump2.gif
+
+anim Forwardjump
+          loop       0
           delay      6
           offset     55 89
           bbox       50 56 12 31
