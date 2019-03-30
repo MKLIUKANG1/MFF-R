@@ -180,7 +180,7 @@ anim special
           offset     55 89
           bbox       0
           attack     57 76 20 13 3 1 0 0 0 5
-          jumpframe  0 3 0 0
+          jumpframe  0 2.3 0 0
           score      2
           sound      data/sounds/attack2.wav
           frame      data/chars/cody/special1.gif
