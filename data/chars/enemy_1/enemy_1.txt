@@ -1,188 +1,87 @@
-#------------------------------------------------------------#
-name			Enemy_1
-type			enemy
-health			100
-speed			15
-jumpheight		3
-grabdistance	10
-noquake			1
-nodieblink		1
-falldie			2
-cantgrab		2
-blockodds		1
+name                 enemy_1
+type                 enemy
+health               80
+speed                15
+jumpheight           3
+grabdistance         10
+noquake              1
+nodieblink           3
+falldie              2
+cantgrab             2
+blockodds            1
 
-#------------------------------------------------------------#
+alternatepal         data/chars/enemy_1/alt1.gif
+alternatepal         data/chars/enemy_1/alt2.gif
+alternatepal         data/chars/enemy_1/alt3.gif
+alternatepal         data/chars/enemy_1/alt4.gif
+palette              data/chars/enemy_1/alt1.gif
 
-#Скрипты-----------------------------------------------------#
+anim spawn
+          loop       0
+          delay      3
+          offset     42 79
+          bbox       37 48 14 30
+          frame      data/chars/enemy_1/idle.gif
 
-animationscript  data/scripts/player.h
-script data/scripts/spawn.c
+anim idle
+          loop       1
+          delay      30
+          offset     42 79
+          bbox       38 47 12 31
+          frame      data/chars/enemy_1/idle.gif
 
-#Скрипты-----------------------------------------------------#
+anim walk
+          loop       1
+          delay      15
+          offset     42 78
+          bbox       38 47 12 31
+          frame      data/chars/enemy_1/wk1.gif
+          offset     42 77
+          frame      data/chars/enemy_1/wk2.gif
+          frame      data/chars/enemy_1/wk3.gif
+          frame      data/chars/enemy_1/wk4.gif
 
-#Палитра-----------------------------------------------------#
+anim rise
+          loop       0
+          delay      15
+          offset     38 79
+          frame      data/chars/enemy_1/rise.gif
 
-alternatepal  data/chars/enemy_1/alt1.gif#1
-alternatepal  data/chars/enemy_1/alt2.gif#2
-alternatepal  data/chars/enemy_1/alt3.gif#3
-alternatepal  data/chars/enemy_1/alt4.gif#4
-palette  data/chars/enemy_1/wk1.gif
+anim get
+          loop       0
+          delay      15
+          offset     38 78
+          frame      data/chars/enemy_1/rise.gif
 
-#Палитра-----------------------------------------------------#
+anim pain
+          loop       0
+          delay      30
+          offset     42 78
+          bbox       30 49 17 28
+          frame      data/chars/enemy_1/pain.gif
 
-#Анимаций----------------------------------------------------#
+anim fall
+          loop       0
+          delay      100
+          offset     42 78
+          quakeframe 1
+          attack     0 0 0 0 0 0 0 0 0
+          bbox       36 51 17 27
+          frame      data/chars/enemy_1/fall1.gif
+          frame      data/chars/enemy_1/fall2.gif
 
-#Основа------------------------------------------------------#
+anim attack1
+          range      0 20
+          loop       0
+          delay      5
+          offset     42 79
+          bbox       42 49 10 29
+          attack     46 59 16 6 3 0 0 0 0 3
+          frame      data/chars/enemy_1/a1.gif
 
-
-anim Spawn
-	loop	0
-	delay	3
-	offset	42 79
-	bbox	37  48  14  30
-	frame	data/chars/enemy_1/idle.GIF
-	frame	data/chars/enemy_1/idle.GIF
-
-anim  Idle
-	loop	1
-	delay	30
-	offset	42  79
-	bbox	38  47  12  31
-	frame	data/chars/enemy_1/idle.GIF
-	frame	data/chars/enemy_1/idle.GIF
-	
-anim  Walk
-	loop	1
-	delay	15
-	offset	42  78
-	bbox	38  47  12  31
-	frame	data/chars/enemy_1/wk1.GIF
-	offset	42  77
-	frame	data/chars/enemy_1/wk2.GIF
-	offset	42  78
-	frame	data/chars/enemy_1/wk3.GIF
-	frame	data/chars/enemy_1/wk4.GIF
-	
-anim  Rise
-	loop	0
-	delay	15
-	offset	38  79
-	frame	data/chars/enemy_1/rise.GIF
-
-anim  Get
-	loop	0
-	delay	15
-	offset	38  78
-	frame	data/chars/enemy_1/rise.GIF
-	
-anim  Pain
-	loop	0
-	delay	30
-	offset	42  78
-	bbox	30  49  17  28
-	frame	data/chars/enemy_1/pain.GIF
-	
-anim  Fall
-@script
-    void self = getlocalvar("self");
-    changeentityproperty(self, "antigravity", 0);
-    changeentityproperty(self, "Subject_to_Wall", 1);
-    changeentityproperty(self, "Subject_to_MinZ", 1);
-    changeentityproperty(self, "Subject_to_MaxZ", 1);
-    changeentityproperty(self, "Subject_to_Gravity", 1);
-
-    if(frame==1){
-      setentityvar(self, 0, openborvariant("elapsed_time"));
-    }
-@end_script
-	loop	0
-	delay	1000
-	offset	42  79
-	quakeframe	0
-	landframe	2
-	frame	data/chars/enemy_1/fall1.GIF
-	delay	1000
-	frame	data/chars/enemy_1/fall1.GIF
-	delay	30
-	frame	data/chars/Enemy_1/fall2.GIF
-
-anim  Follow1
-	loop	1
-	delay	1
-	offset	42  79
-	@cmd	attack1 -30 50 50 "ANI_FOLLOW3"
-	frame	data/chars/enemy_1/wait1.GIF
-	@cmd	attack1 -30 50 50 "ANI_FOLLOW3"
-	frame	data/chars/enemy_1/wait1.GIF
-	
-anim  Follow2
-	loop	1
-	delay	1
-	offset	42  79
-	@cmd	attack1 -30 50 50 "ANI_FOLLOW3"
-	frame	data/chars/enemy_1/wait2.GIF
-	@cmd	attack1 -30 50 50 "ANI_FOLLOW3"
-	frame	data/chars/enemy_1/wait2.GIF	
-	
-anim Follow3
-	loop	0
-	delay	1
-	offset	42 79
-	bbox	37  48  14  30
-	frame	data/chars/enemy_1/idle.GIF
-	frame	data/chars/enemy_1/idle.GIF
-	
-#Основа------------------------------------------------------#
-
-#Атаки-------------------------------------------------------#
-	 
-anim  Attack1
-	range	0 20
-	loop	0
-	delay	5
-	offset	42  79
-	bbox	42  49  10  29
-	attack	46  59  16  6  3  0  0  0  0  3
-	frame	data/chars/enemy_1/a1.GIF
-	
-#Атаки-------------------------------------------------------#
-
-#В захвате---------------------------------------------------#
-
-anim  Grabbed
-	loop	0
-	delay	30
-	offset	42  78
-	bbox	30  49  17  28
-	frame	data/chars/enemy_1/pain.GIF
-	frame	data/chars/enemy_1/pain.GIF
-	
-anim  Fall20	#Grabbed
-	loop	0
-	delay	100
-	offset	42  78
-	quakeframe	1
-	bbox	36  51  17  27
-	@cmd	degravity 0.5
-	frame  data/chars/enemy_1/Pain.GIF
-	frame  data/chars/enemy_1/Throw_02.GIF
-	
-anim  Fall4	#Throw
-	loop	0
-	delay	1
-	offset	42  78
-	quakeframe	0
-	landframe	4
-	bbox	36  51  17  27
-	@cmd	degravity 0.5
-	frame	data/chars/enemy_1/fall1.GIF
-	delay	10
-	frame  data/chars/enemy_1/Throw_01.GIF
-	delay	20
-	frame  data/chars/enemy_1/Throw_02.GIF
-	delay	1000
-	frame	data/chars/enemy_1/fall1.GIF
-	delay	30
-	frame	data/chars/enemy_1/fall2.GIF
-
-#В захвате---------------------------------------------------#
+anim grabbed
+          loop       0
+          delay      30
+          offset     42 78
+          bbox       30 49 17 28
+          frame      data/chars/enemy_1/pain.gif

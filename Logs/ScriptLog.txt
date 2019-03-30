@@ -6,22 +6,7 @@ void main()
 {
     int frame = getlocalvar("frame");
     int animhandle = getlocalvar("animhandle");
-    if(animhandle==27)
-    {
-
-    void self = getlocalvar("self");
-    changeentityproperty(self, "antigravity", 0);
-    changeentityproperty(self, "Subject_to_Wall", 1);
-    changeentityproperty(self, "Subject_to_MinZ", 1);
-    changeentityproperty(self, "Subject_to_MaxZ", 1);
-    changeentityproperty(self, "Subject_to_Gravity", 1);
-
-    if(frame==1){
-      setentityvar(self, 0, openborvariant("elapsed_time"));
-    }
-        return;
-    }
-    if(animhandle==28)
+    if(animhandle==30)
     {
         if(frame==0)
         {
@@ -30,34 +15,6 @@ void main()
         if(frame==1)
         {
             attack1(-30, 50, 50, "ANI_FOLLOW3");
-        }
-        return;
-    }
-    if(animhandle==29)
-    {
-        if(frame==0)
-        {
-            attack1(-30, 50, 50, "ANI_FOLLOW3");
-        }
-        if(frame==1)
-        {
-            attack1(-30, 50, 50, "ANI_FOLLOW3");
-        }
-        return;
-    }
-    if(animhandle==33)
-    {
-        if(frame==0)
-        {
-            degravity(0.5);
-        }
-        return;
-    }
-    if(animhandle==34)
-    {
-        if(frame==0)
-        {
-            degravity(0.5);
         }
         return;
     }

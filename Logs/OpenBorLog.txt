@@ -1,6 +1,6 @@
 Total Ram: 8028278784 Bytes
- Free Ram: 4854583296 Bytes
- Used Ram: 3223552 Bytes
+ Free Ram: 4755460096 Bytes
+ Used Ram: 3235840 Bytes
 
 debug:nativeWidth, nativeHeight, bpp, Hz  1366, 768, 24, 60
 OpenBoR v3.0 Build , Compile Date: Aug 29 2018
@@ -39,64 +39,58 @@ Save settings so far........	Done!
 
 Level Loading:   'data/levels/01.txt'
 Total Ram: 8028278784 Bytes
- Free Ram: 4802768896 Bytes
- Used Ram: 45924352 Bytes
+ Free Ram: 4702244864 Bytes
+ Used Ram: 45813760 Bytes
 
 Loaded 'enemy_1' from data/chars/enemy_1/enemy_1.txt 
 
 Level Loaded:    'data/levels/01.txt'
 Total Ram: 8028278784 Bytes
- Free Ram: 4800397312 Bytes
- Used Ram: 48439296 Bytes
-Total sprites mapped: 53
+ Free Ram: 4702076928 Bytes
+ Used Ram: 46268416 Bytes
+Total sprites mapped: 47
 
 Level Unloading: 'data/levels/01.txt'
 Total Ram: 8028278784 Bytes
- Free Ram: 4799651840 Bytes
- Used Ram: 48594944 Bytes
+ Free Ram: 4705779712 Bytes
+ Used Ram: 46407680 Bytes
 
 RAM Status:
 Total Ram: 8028278784 Bytes
- Free Ram: 4799651840 Bytes
- Used Ram: 48594944 Bytes
+ Free Ram: 4705779712 Bytes
+ Used Ram: 46407680 Bytes
 
 Level Loading:   'data/levels/02.txt'
 Total Ram: 8028278784 Bytes
- Free Ram: 4799651840 Bytes
- Used Ram: 48594944 Bytes
-
-Level Loaded:    'data/levels/02.txt'
-Total Ram: 8028278784 Bytes
- Free Ram: 4799631360 Bytes
- Used Ram: 48824320 Bytes
-Total sprites mapped: 53
-
-Level Unloading: 'data/levels/02.txt'
-Total Ram: 8028278784 Bytes
- Free Ram: 4799918080 Bytes
- Used Ram: 48828416 Bytes
-
-RAM Status:
-Total Ram: 8028278784 Bytes
- Free Ram: 4799918080 Bytes
- Used Ram: 48828416 Bytes
+ Free Ram: 4705779712 Bytes
+ Used Ram: 46407680 Bytes
 
 
 ********** An Error Occurred **********
 *            Shutting Down            *
 
-Error loading background (PIXEL_x8/PIXEL_32) file 'data/bgs/hiscore'Total Ram: 8028278784 Bytes
- Free Ram: 4799631360 Bytes
- Used Ram: 48828416 Bytes
+ERROR: load_level, file data/levels/02.txt, line 0, message: Unable to load level file!Total Ram: 8028278784 Bytes
+ Free Ram: 4705779712 Bytes
+ Used Ram: 46407680 Bytes
 
 Release level data...........
+Level Unloading: 'data/levels/02.txt'
+Total Ram: 8028278784 Bytes
+ Free Ram: 4705779712 Bytes
+ Used Ram: 46407680 Bytes
+
+RAM Status:
+Total Ram: 8028278784 Bytes
+ Free Ram: 4705779712 Bytes
+ Used Ram: 46407680 Bytes
+
 Done!
 
 Release graphics data........	Done!
 Release game data............
 
 Unload 'Cody' ............Done.
-Unload 'Enemy_1' ............Done.
+Unload 'enemy_1' ............Done.
 
 Release game data............	Done!
 Release timer................	Done!
@@ -106,4 +100,4 @@ Release FileCaching System...	Done!
 
 **************** Done *****************
 
-Error loading background (PIXEL_x8/PIXEL_32) file 'data/bgs/hiscore'
+ERROR: load_level, file data/levels/02.txt, line 0, message: Unable to load level file!
