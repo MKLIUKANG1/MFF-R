@@ -1,6 +1,6 @@
 Total Ram: 8028278784 Bytes
- Free Ram: 5251428352 Bytes
- Used Ram: 3244032 Bytes
+ Free Ram: 4878872576 Bytes
+ Used Ram: 3235840 Bytes
 
 debug:nativeWidth, nativeHeight, bpp, Hz  1366, 768, 24, 60
 OpenBoR v3.0 Build , Compile Date: Aug 29 2018
@@ -39,41 +39,50 @@ Save settings so far........	Done!
 
 Level Loading:   'data/levels/01.txt'
 Total Ram: 8028278784 Bytes
- Free Ram: 5184770048 Bytes
- Used Ram: 46039040 Bytes
+ Free Ram: 4829421568 Bytes
+ Used Ram: 46157824 Bytes
 
 Loaded 'enemy_1' from data/chars/enemy_1/enemy_1.txt 
 
 Level Loaded:    'data/levels/01.txt'
 Total Ram: 8028278784 Bytes
- Free Ram: 5184188416 Bytes
- Used Ram: 46505984 Bytes
+ Free Ram: 4828942336 Bytes
+ Used Ram: 46620672 Bytes
 Total sprites mapped: 47
 
-
-************ Shutting Down ************
-
-OpenBOR v3.0 Build , Compile Date: Aug 29 2018
-Presented by the OpenBOR Team.
-www.chronocrash.com
-OpenBOR is the open source continuation of Beats of Rage by Senile Team.
-
-Special thanks to SEGA and SNK.
-
-Total Ram: 8028278784 Bytes
- Free Ram: 5183561728 Bytes
- Used Ram: 46632960 Bytes
-
-Release level data...........
 Level Unloading: 'data/levels/01.txt'
 Total Ram: 8028278784 Bytes
- Free Ram: 5183561728 Bytes
- Used Ram: 46632960 Bytes
+ Free Ram: 4827537408 Bytes
+ Used Ram: 46764032 Bytes
 
 RAM Status:
 Total Ram: 8028278784 Bytes
- Free Ram: 5183561728 Bytes
- Used Ram: 46632960 Bytes
+ Free Ram: 4827537408 Bytes
+ Used Ram: 46764032 Bytes
+
+Level Loading:   'data/levels/02.txt'
+Total Ram: 8028278784 Bytes
+ Free Ram: 4827537408 Bytes
+ Used Ram: 46764032 Bytes
+
+
+********** An Error Occurred **********
+*            Shutting Down            *
+
+ERROR: load_level, file data/levels/02.txt, line 0, message: Unable to load level file!Total Ram: 8028278784 Bytes
+ Free Ram: 4827537408 Bytes
+ Used Ram: 46764032 Bytes
+
+Release level data...........
+Level Unloading: 'data/levels/02.txt'
+Total Ram: 8028278784 Bytes
+ Free Ram: 4827537408 Bytes
+ Used Ram: 46764032 Bytes
+
+RAM Status:
+Total Ram: 8028278784 Bytes
+ Free Ram: 4827537408 Bytes
+ Used Ram: 46764032 Bytes
 
 Done!
 
@@ -91,10 +100,4 @@ Release FileCaching System...	Done!
 
 **************** Done *****************
 
-OpenBOR v3.0 Build , Compile Date: Aug 29 2018
-Presented by the OpenBOR Team.
-www.chronocrash.com
-OpenBOR is the open source continuation of Beats of Rage by Senile Team.
-
-Special thanks to SEGA and SNK.
-
+ERROR: load_level, file data/levels/02.txt, line 0, message: Unable to load level file!
