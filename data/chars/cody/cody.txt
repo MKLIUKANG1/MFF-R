@@ -7,7 +7,7 @@ throw                1 2.5
 jumpheight           3
 jumpspeed            6
 grabdistance         16
-running              15 3 3.5 0 0
+running              15 3 3 0 0
 makeinv              2 0
 nodieblink           2
 falldie              2
@@ -73,14 +73,34 @@ anim run
           offset     55 89
           frame      data/chars/cody/wk3.gif
 
+anim runattack
+          loop       0
+          delay      10
+          offset     63 90
+          bbox       0
+          attack     0
+          score      4
+          move       12
+          frame      data/chars/cody/attack2_3.gif
+          attack     78 62 7 16 5 1 0 0 0 3
+          sound      data/sounds/codyfinish.wav
+          frame      data/chars/cody/attack2_4.gif
+          delay      25
+          attack     77 48 9 27 5 1 0 0 0 3
+          frame      data/chars/cody/attack2_5.gif
+          delay      5
+          attack     0
+          frame      data/chars/cody/attack2_6.gif
+          offset     55 90
+          frame      data/chars/cody/idle.gif
+
 anim runjumpattack
           loop       0
           delay      15
           offset     55 89
           bbox       49 60 14 18
-          score      1
-          attack     62 73 15 14 2 1 0 0 0 3
-          frame      data/chars/cody/jumpattack1.gif
+          attack     46 76 21 12 1 0 0 0 0 3
+          frame      data/chars/cody/jumpattack2.gif
 
 anim get
           loop       0

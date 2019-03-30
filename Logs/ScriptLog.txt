@@ -6,7 +6,7 @@ void main()
 {
     int frame = getlocalvar("frame");
     int animhandle = getlocalvar("animhandle");
-    if(animhandle==26)
+    if(animhandle==27)
     {
 
     void self = getlocalvar("self");
@@ -21,18 +21,6 @@ void main()
     }
         return;
     }
-    if(animhandle==27)
-    {
-        if(frame==0)
-        {
-            attack1(-30, 50, 50, "ANI_FOLLOW3");
-        }
-        if(frame==1)
-        {
-            attack1(-30, 50, 50, "ANI_FOLLOW3");
-        }
-        return;
-    }
     if(animhandle==28)
     {
         if(frame==0)
@@ -45,7 +33,19 @@ void main()
         }
         return;
     }
-    if(animhandle==32)
+    if(animhandle==29)
+    {
+        if(frame==0)
+        {
+            attack1(-30, 50, 50, "ANI_FOLLOW3");
+        }
+        if(frame==1)
+        {
+            attack1(-30, 50, 50, "ANI_FOLLOW3");
+        }
+        return;
+    }
+    if(animhandle==33)
     {
         if(frame==0)
         {
@@ -53,7 +53,7 @@ void main()
         }
         return;
     }
-    if(animhandle==33)
+    if(animhandle==34)
     {
         if(frame==0)
         {

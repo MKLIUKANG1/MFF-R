@@ -1,0 +1,9 @@
+void main() {
+	setglobalvar("p1spawning",0);
+	setglobalvar("p1respawn_x",685.316406);
+	setglobalvar("p1respawn_z",134.836990);
+	setglobalvar("p1respawn_a",0.000000);
+	setglobalvar("p1respawn_base",0.000000);
+	setglobalvar("p1spawn_time",14);
+	changemodelproperty("Cody",4,1);
+}
